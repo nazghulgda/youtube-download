@@ -1,7 +1,7 @@
 import yt_dlp
 
 ydl_opts = {'nocheckcertificate': True}
-# bez 'nocheckcertificate': True wywalało się na plecy, teraz działa
+# without 'nocheckcertificate': True script will return an error
 
 def dwl_vid(video_url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:

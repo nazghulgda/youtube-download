@@ -1,4 +1,4 @@
-Pytube nie działa na Win.
+Small script that downloads video from youtube.
+Run scrupt by `python ciagij.py`, enter od paste link to video,wait for download to be finished and input 1 to download next video or input 0 to end the script.
 
-Pniższy (yt_dlp) chyba działa, bo coś ściąga0
-https://www.geeksforgeeks.org/python-download-youtube-videos-using-youtube_dl-module/
+That's all ;)
