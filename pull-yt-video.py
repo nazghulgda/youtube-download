@@ -3,6 +3,7 @@ import yt_dlp
 ydl_opts = {
     'nocheckcertificate': True,
     'paths': {'home': 'downloads'},
+    'cookiesfrombrowser': ('firefox',),
 }
 # without 'nocheckcertificate': True script will return an error
 
