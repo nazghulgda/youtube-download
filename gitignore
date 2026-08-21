@@ -4,3 +4,8 @@
 .idea/
 .venv
 .venv/
+*.webm
+*.m4a
+downloads/
+/downloads
+/downloads/
