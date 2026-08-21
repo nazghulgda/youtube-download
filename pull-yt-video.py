@@ -1,6 +1,9 @@
 import yt_dlp
 
-ydl_opts = {'nocheckcertificate': True}
+ydl_opts = {
+    'nocheckcertificate': True,
+    'paths': {'home': 'downloads'},
+}
 # without 'nocheckcertificate': True script will return an error
 
 def dwl_vid(video_url):
