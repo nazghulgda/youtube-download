@@ -1,9 +1,11 @@
 import yt_dlp
+import imageio_ffmpeg
 
 ydl_opts = {
     'nocheckcertificate': True,
-    'paths': {'home': 'downloads'},
-    'cookiesfrombrowser': ('firefox',),
+    'ffmpeg_location': imageio_ffmpeg.get_ffmpeg_exe(),
+    # 'paths': {'home': 'downloads'},
+    # 'cookiesfrombrowser': ('firefox',),
 }
 # without 'nocheckcertificate': True script will return an error
 
